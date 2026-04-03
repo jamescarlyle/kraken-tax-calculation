@@ -11,3 +11,5 @@ coingecko.com, e.g. https://www.coingecko.com/en/coins/xrp/historical_data?start
 
 The result of the CGT calculation is a CSV file which contains the matched data used by an existing CGT calculator, for example https://www.cgtcalculator.com/calculator.aspx. That is, data 
 with columns for B/S, date, asset (ticker), quantity of asset, price (in GBP), and fees (in GBP).
+
+The code is developed to run in [Marimo](https://marimo.io/), a python notebook environment. It's possible to use Marimo to export this as a Jupyter notebook, or standalone Python.
