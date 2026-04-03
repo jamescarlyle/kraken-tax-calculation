@@ -1,6 +1,7 @@
 # kraken-tax-calculation
 
-The purpose of this codebase is to prepare data for capital gains tax and income tax in the UK, based on exported ledger data from kraken.com.
+The purpose of this codebase is to prepare data for capital gains tax and income tax in the UK, based on exported ledger data from kraken.com. The reason for 
+this preparation is that kraken doesn't provide trades in GBP required for UK tax calculations.
 
 It is assumed that the ledger data used as a basis for calculation is exported from kraken and saved as a CSV file in the /data directory. The filename can be 
 specified on the command line when the calculations are run.
